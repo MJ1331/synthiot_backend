@@ -1,0 +1,105 @@
+# ===============================
+# 🌐 General
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+*.tmp
+*.cache
+*.env
+.env
+.env.*
+*.sqlite3
+*.db
+
+# ===============================
+# 🚀 FastAPI Backend
+# ===============================
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/**/*.py[cod]
+
+# Firebase Service Account (VERY sensitive!)
+firebase_service_account.json
+backend/firebase_service_account.json
+**/firebase_service_account.json
+
+# Local development settings
+backend/*.local.json
+backend/*.dev.json
+
+# Uvicorn / FastAPI run artifacts
+*.pid
+*.sqlite
+*.db-journal
+
+# ===============================
+# ⚛️ React Frontend
+# ===============================
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# production build
+dist/
+build/
+
+# misc
+.DS_Store
+*.pem
+*.crt
+*.key
+
+# dotenv files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ===============================
+# 🧰 VSCode / IDE
+# ===============================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+# 🧪 Testing / Coverage
+# ===============================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
